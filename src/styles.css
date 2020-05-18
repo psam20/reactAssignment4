@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body{
+  margin: 0;
+  
+}
+*
+{
+  box-sizing: border-box;
+}
+.navigation-bar {
+  width: 100%;
+
+  text-align: left;
+  padding: 20px;
+  background-color: rgb(56, 15, 15);
+}
+.navigation-bar .Link {
+  color: rgb(54, 25, 133);
+  text-decoration: none;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(192, 235, 164);
+  border: 1px solid black;
+}
+.Link:hover{
+  transition: transform 1s ease ;
+  transform: scale(1.5);
+}
